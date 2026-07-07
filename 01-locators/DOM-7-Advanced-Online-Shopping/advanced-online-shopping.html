@@ -1,0 +1,82 @@
+mSelenium XPath Practice DOM
+``` html
+<html>
+<head><title>Online Shopping</title></head>
+<body>
+<div id="container">
+<header>
+<div class="logo">ShopEasy</div>
+<nav>
+<ul class="menu">
+<li><a href="/home">Home</a></li>
+<li><a href="/products">Products</a></li>
+<li><a href="/orders">Orders</a></li>
+<li><a href="/contact">Contact Us</a></li>
+</ul>
+</nav>
+</header>
+
+<section id="loginSection">
+<form id="loginForm">
+<div class="field">
+<label>Email</label>
+<input type="text" id="email" name="email" class="textbox">
+</div>
+<div class="field">
+<label>Password</label>
+<input type="password" id="password" name="password" class="textbox">
+</div>
+<div class="gender">
+<input type="radio" id="male" name="gender"><label>Male</label>
+<input type="radio" id="female" name="gender"><label>Female</label>
+</div>
+<div class="country">
+<select id="country">
+<option>India</option>
+<option>USA</option>
+<option>Canada</option>
+</select>
+</div>
+<div class="buttons">
+<button id="loginBtn" class="btn primary">Login</button>
+<button id="resetBtn" class="btn secondary">Reset</button>
+</div>
+</form>
+</section>
+
+<section id="productSection">
+<div class="product-card">
+<h3>Samsung S25</h3>
+<span class="price">75000</span>
+<button class="buyBtn">Buy Now</button>
+</div>
+<div class="product-card">
+<h3>iPhone 17</h3>
+<span class="price">120000</span>
+<button class="buyBtn">Buy Now</button>
+</div>
+<div class="product-card">
+<h3>OnePlus 15</h3>
+<span class="price">65000</span>
+<button class="buyBtn">Buy Now</button>
+</div>
+</section>
+
+<section id="orderSection">
+<table id="orderTable">
+<thead>
+<tr><th>Order ID</th><th>Customer</th><th>Product</th><th>Status</th><th>Action</th></tr>
+</thead>
+<tbody>
+<tr><td>1001</td><td>Rani</td><td>Samsung S25</td><td>Delivered</td><td><button class="viewBtn">View</button><button class="cancelBtn">Cancel</button></td></tr>
+<tr><td>1002</td><td>Rahul</td><td>iPhone 17</td><td>Processing</td><td><button class="viewBtn">View</button><button class="cancelBtn">Cancel</button></td></tr>
+<tr><td>1003</td><td>Anjali</td><td>OnePlus 15</td><td>Cancelled</td><td><button class="viewBtn">View</button><button class="cancelBtn">Cancel</button></td></tr>
+</tbody>
+</table>
+</section>
+
+<footer><span>Copyright 2026 ShopEasy</span></footer>
+</div>
+</body>
+</html>
+```
