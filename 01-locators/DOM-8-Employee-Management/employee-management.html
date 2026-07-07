@@ -1,0 +1,186 @@
+<html>
+<head>
+    <title>Employee Management</title>
+</head>
+
+<body>
+
+<div id="container">
+
+    <header>
+        <h1>Employee Portal</h1>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="/home">Home</a></li>
+            <li><a href="/employee">Employees</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="loginSection">
+
+        <form id="loginForm">
+
+            <div class="form-group">
+                <label>Email</label>
+                <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    class="textbox required">
+            </div>
+
+            <div class="form-group">
+                <label>Password</label>
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    class="textbox required">
+            </div>
+
+            <div class="remember">
+
+                <input
+                    type="checkbox"
+                    id="remember">
+
+                <label for="remember">
+                    Remember Me
+                </label>
+
+            </div>
+
+            <div class="buttons">
+
+                <button
+                    id="loginBtn"
+                    class="btn primary">
+                    Login
+                </button>
+
+                <button
+                    id="cancelBtn"
+                    class="btn secondary">
+                    Cancel
+                </button>
+
+            </div>
+
+        </form>
+
+    </section>
+
+    <section id="employeeSection">
+
+        <table id="employeeTable">
+
+            <thead>
+
+                <tr>
+
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Salary</th>
+                    <th>Action</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td>101</td>
+
+                    <td>John</td>
+
+                    <td>QA</td>
+
+                    <td>50000</td>
+
+                    <td>
+
+                        <button class="editBtn">
+                            Edit
+                        </button>
+
+                        <button class="deleteBtn">
+                            Delete
+                        </button>
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>102</td>
+
+                    <td>Rani</td>
+
+                    <td>Automation</td>
+
+                    <td>70000</td>
+
+                    <td>
+
+                        <button class="editBtn">
+                            Edit
+                        </button>
+
+                        <button class="deleteBtn">
+                            Delete
+                        </button>
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>103</td>
+
+                    <td>Rahul</td>
+
+                    <td>Developer</td>
+
+                    <td>80000</td>
+
+                    <td>
+
+                        <button class="editBtn">
+                            Edit
+                        </button>
+
+                        <button class="deleteBtn">
+                            Delete
+                        </button>
+
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <footer>
+
+        <span class="copyright">
+            2026 Company
+        </span>
+
+    </footer>
+
+</div>
+
+</body>
+
+</html>
