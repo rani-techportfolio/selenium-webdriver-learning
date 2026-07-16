@@ -11,8 +11,11 @@ This repository will continue to grow as I progress through Selenium concepts.
 # Current Progress
 
 ✅ Locator Practice
+
 ✅ Web Elements
+
 ✅ Alerts
+
 ✅ File Upload & Download
 
 🚧 Upcoming Topics
