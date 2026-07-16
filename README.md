@@ -11,13 +11,14 @@ This repository will continue to grow as I progress through Selenium concepts.
 # Current Progress
 
 ✅ Locator Practice
+✅ Web Elements
+✅ Alerts
+✅ File Upload & Download
 
 🚧 Upcoming Topics
 
-* Web Elements
 * Browser Commands
 * Waits
-* Alerts
 * Frames
 * Window Handling
 * Actions Class
@@ -25,7 +26,6 @@ This repository will continue to grow as I progress through Selenium concepts.
 * Screenshots
 * Tables
 * Calendar
-* File Upload & Download
 * Shadow DOM
 * SVG Elements
 * Practical Scenarios
